@@ -43,7 +43,7 @@ function App() {
       (<Tasks 
         tasks={tasks} 
         onDelete={deleteTask} 
-        onToggle={toggleReminder} />) : ('No Task To Do')}
+        onToggle={toggleReminder} />) : ('Just chill')}
     
     </div>
   );
