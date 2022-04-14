@@ -1,25 +1,26 @@
 //imports
 import {AddTaskForm, Header, Tasks, } from './components'
+import Calendar from 'react-calendar'
+import 'react-calendar/dist/Calendar.css';
 
 import React,{ useState } from 'react' 
 
 function App() {
   //logic
-    //handle From on click to show or display
-    const [showHandleForm, setShowHandleForm] = useState(false)
+  
     //useStat for tasks
     const [tasks, setTasks] = useState([])
     
   return (
     //view
     <div className="App">
-      <Header 
-      onAdd={() =>setShowHandleForm(!showHandleForm)}
-      showhandleForm={showHandleForm}/>
+      <Header />
       <AddTaskForm />
-      <Tasks tasks={tasks} />
+      <Tasks />
+      <Calendar />
     </div>
   );
 }
 
 export default App;
+
