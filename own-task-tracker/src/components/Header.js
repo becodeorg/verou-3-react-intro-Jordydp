@@ -4,10 +4,9 @@ import {BiAddToQueue} from 'react-icons/bi'
 const Header = () => {
 return (
     <header>
-        <div>
-        <h1>Click + To Add Task
-            <BiAddToQueue />
-        </h1>
+        <div className='header'>
+            <h1>Click + To Add Task </h1>
+            <h1><BiAddToQueue /></h1>
         </div>
     </header>
 )

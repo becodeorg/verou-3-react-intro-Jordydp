@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  background-color: aqua;
+  color: azure;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+form{
+  background-color: aqua;
+  color: azure;
+  display: flex;
+}
